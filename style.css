@@ -1,0 +1,6 @@
+.Contenedor{display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: aqua;
+        align-items: center;}
+        
