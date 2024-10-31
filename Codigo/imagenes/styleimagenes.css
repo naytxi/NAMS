@@ -1,0 +1,19 @@
+ /*  Reset de la pagina  */
+
+ * {padding: 0;
+       margin: 0;}
+
+    a {text-decoration: none;
+        color: black;}
+
+    /*  Codigo pagina en desktop  */
+    
+    body  {padding-top: 0;
+          background-color: wheat;
+          align-items:flex-start;
+          justify-content: flex;
+          width: 50%;
+          margin:1cm;
+        }
+    
+             

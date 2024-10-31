@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+        <head>
+         <meta charset="UTF-8"/>
+         <link rel="stylesheet" href="styleimagenes.css"/>
+
+          <title>Imagenes</title>
+         </head>
+   <body>
+        <h2><h2>By Silvia</h2></h2>
+        
+           <img src="/videoyaudio/atarceder.png" alt="atardecer-en-el-mar"
+                 width= 50%;
+                 height= 50%; >
+      
+   
+            <figure>
+              <img src="/videoyaudio/atarceder.png" alt="atardecer-en-el-mar"
+                 width= 50%;
+                 height= 50%;>
+              <figcaption>Preciosa imagen de una atardecer vista desde la playa</figcaption> 
+            </figure>
+     
+
+
+             <picture>
+                  <source srcset="/videoyaudio/mariposa-amarilla_.avif">
+                  <img src="/videoyaudio/mariposa.png" alt="mariposa-amarilla"
+                  sizes="(max-width: 600px) 100vw, 600px"
+                        width= 50%;
+                        height= 50%;>
+             </picture>
+
+                
+             <picture>
+                     <source media="(min-width: 1001px) and (max-width: 1200px)"
+                            srcset="mariposa-amarilla.png,
+                                    mariposa-amarilla.png 2x,
+                                    mariposa-amarilla.png 3x">
+                      <source media="(min-width: 801px) and (max-width: 1000px)"
+                            srcset="mariposa-amarilla.png,
+                                    mariposa-amarilla.png 2x,
+                                    mariposa-amarilla.png 3x">
+                      <source media="(min-width: 601px) and (max-width: 800px)"
+                            srcset="mariposa-amarilla.png,
+                                    mariposa-amarilla.png 2x,
+                                    mariposa-amarilla.png 3x">
+                       <img src="/videoyaudio/mariposa-amarilla_.avif" alt="mariposa-amarilla">
+              </picture>
+
+                
+
+                <h2>Ejemplo de SVG</h2>
+
+                 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M10,10 L190,10 L190,190 L10,190 Z" fill="lightblue" />
+                     <path d="M50,50 C50,10 150,10 150,50 S150,100 50,100 Z" fill="orange" />
+                      <path d="M10,190 L100,100 L190,190 Z" fill="indigo" />
+                 </svg>
+
+
+
+     </body>
+
+</html>

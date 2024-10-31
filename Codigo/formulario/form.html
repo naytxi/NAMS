@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styleformulario.css">
+
+</head>
+<body>
+
+   <!--Contenedor de Formulario -->
+    <div class="container">
+
+        <!-- INFORMACION PERSONAL -->
+        <h1>Solicitud Bootcamp FullStack</h1>
+        <form action="formulario.php" method="get">
+            <h2>Información Personal</h2>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre y Apellido">
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required placeholder="Carr. Bilbao-Galdakao, 10, 48004 Bilbao, Bizkaia">
+
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono" required placeholder="944029300">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder=" info@grupopenascal.com">
+
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento" required>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" name="nacionalidad" required placeholder="Española">
+
+            <!-- ESTUDIOS ACADEMICOS -->
+            <h2>Formación Académica</h2>
+            <label for="educacion">Educación más alta completada:</label>
+            <input type="text" id="educacion" name="educacion" required placeholder="Secundaria Obligatoria (ESO)">
+
+            <label for="fin estudios">Fecha Culminacion de estudios:</label>
+            <input type="date" id="fin estudios" name="fin estudios" required>
+
+            <label for="certificaciones">Otros estudios/certificaciones:</label>
+            <input type="text" id="certificationes" name="certificationes" placeholder="OPERACIONES AUXILIARES DE MONTAJE Y MANTENIMIENTO DE SISTEMAS MICROINFORMÁTICOS">
+
+        <!-- estilo Rango -->
+            <label for="disability">¿Tiene algun Conocimiento de Programacion?</label>
+            Indique su nivel (de 0 a 10):
+           <input type="range" name="rango"min="0" max="10" list="lista-rango">
+           <datalist id="lista-rango">
+            <option value="2">
+            <option value="4">
+            <option value="6">
+            <option value="8">
+           <option value="10"></option>
+           </datalist>
+        <!-- CHECKBOX -->
+           <h1>conoces estos lenguajes de Programacion?</h1>
+            <input type="checkbox" id="html" name="programacion" value="html" required>
+            <label for="html">Html</label>
+            <input type="checkbox" id="javascript" name="programacion" value="javascript">
+            <label for="javascript">Javascript</label>
+            <input type="checkbox" id="css" name="programacion" value="css">
+            <label for="css">Css</label>
+            <input type="checkbox" id="python" name="programacion" value="python">
+            <label for="python">Python</label>
+            <input type="checkbox" id="otros" name="programacion" value="otros">
+            <label for="otro">Otros</label>
+            <textarea id="motivation" name="motivation" rows="4" required placeholder="Describenos Cuales"></textarea>
+          
+
+        
+        <!-- Situacion Laboral -->
+         <!-- Radio -->
+            <h1>Situacion Laboral</h1>
+            <input type="radio" id="full-time" name="situacion Laboral" value="tiempo completo" required>
+            <label for="tiempo completo">Tiempo completo</label>
+            <input type="radio" id="tiempo medio" name="situacion Laboral" value="tiempo medio">
+            <label for="tiempo medio">Medio tiempo</label>
+            <input type="radio" id="temporal" name="situacion Laboral" value="temporal">
+            <label for="temporal">Desempleado</label>
+
+            <!-- Transporte -->
+            <h1>Otros Puntos</h1>
+            <label for="relocation">¿Como te desplazaras al Centro?</label>
+            <select id="relocation" name="relocation">
+                <option value="?">-----</option>
+                <option value="no">Transporte Publico</option>
+                <option value="yes">Transporte Personal</option>
+            </select>
+
+            <!-- REFERENCIAS PERSONALES -->
+            <h2>Referencias</h2>       
+            <label for="relocation">¿Como te diste Cuenta del Curso?</label>
+            <select id="relocation" name="relocation" required>
+                <option>-----</option>
+                <option>Amigo</option>
+                <option>Lanbide</option>
+                <option>redes Sociales</option>
+                <option>Otros</option>
+            </select>
+            <!-- Informacion adicional -->
+            <h2>Información Adicional</h2>
+            <label for="motivation">¿Por qué le interesa este Bootcamp?</label>
+            <textarea id="motivation" name="motivation" rows="3" required placeholder="Escribe tu Comentario"></textarea>
+
+             <!-- Botones de Enviar y Restablecer -->
+
+             <div class="buttons">
+                <button type="reset">
+                    <img src="/videoyaudio/Reset.png" alt="Reset" width="50" height="50" style="vertical-align: middle">
+                </button>
+                <!-- <input type="reset" value="Restablecer"> -->
+            
+                <input type="submit" value="Enviar solicitud">
+             </div>          
+        </form>
+        <!-- Fin del contenedor -->
+    </div>
+</body>
+</html>

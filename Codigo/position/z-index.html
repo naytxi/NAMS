@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <link rel="stylesheet" href="/Codigo/position/css/position1.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            background-color: #422e60;
+            color: white;
+            font-family: "Noto mono";
+            font-size: 1.5rem;
+
+
+        }
+        section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+
+            min-height: 50rem;
+            padding-top: 1rem;
+            padding-bottom: 4rem;
+            
+        }
+        h1 {
+
+            width: 80%;
+            font-family: "Liberation Mono";
+            font-size: 4.5rem;
+            color: #bbe33d;
+            margin: 1rem 0 0 0;
+        }
+        h2 {
+            width: 100%;
+            font-size: 3.5rem;
+            margin: 0;
+        }
+        h4 {
+            font-weight: bold;
+            color: black;
+            font-size: 2rem;
+            margin-right: 0.5rem;
+        }
+        p {
+            color: black;
+            margin: 0;
+        }
+        a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-bottom: 5rem;
+        }
+        .ejemplo {
+            color: #bbe33d;
+            margin-top: 1rem;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .static {
+            position: relative;
+        }
+        .relative {
+            position: relative;
+            background-color: #422e60;
+
+        }
+        .absolute {
+            position: relative;
+
+        }
+        article {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: start;
+        }
+        article p {
+            width: 80%;
+        }
+        .pcontainer {
+            font-size: 3rem;
+            color: #ffdbff;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 1rem;
+            margin-bottom: 7rem;
+        }
+        .definicion {
+            margin-top: 1rem;
+            color: white;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>z-index</h1>
+    
+     <!-- SECCIÓN EJEMPLO Z-INDEX -->
+     <section class="relative">
+
+        <p class="definicion">La propiedad z-index controla qué elementos se muestran encima o debajo de otros cuando se superponen. Funciona solo en elementos que tengan una propiedad position diferente de static.</p> <br>
+        <p class="ejemplo">Ejemplo:</p>
+        
+        <div class="container">
+            <p class="pcontainer">contenedor div <br> position: relative</p>
+            <div class="box-1z">
+                <article>
+                    <p>position: absolute; <br>
+                    top: 0rem; <br>
+                    left: 0rem; <br>
+                    z-index: 3;</p>
+                    <h4>1</h4>
+                </article>
+            </div>
+            <div class="box-2z">
+                <article>
+                <p>position: absolute; <br>
+                top: 5.5rem; <br>
+                left: 10rem;<br>
+                z-index: 3;</p>
+                <h4>2</h4>
+                </article>
+            </div>
+            <div class="box-3z">
+                <article>
+                    <p>position: absolute; <br>
+                        top: 11rem; <br>
+                        left: 20rem;<br>
+                        z-index: 1;</p>
+                <h4>3</h4>
+                </article>
+            </div>
+            <div class="box-4z">
+                <article>
+                    <p>position: absolute; <br>
+                        top: 0rem; <br>
+                        left: 37rem;<br>
+                        z-index: 3;</p>
+                <h4>4</h4>
+                </article>
+            </div>
+            <div class="box-5z">
+                <article>
+                    <p>position: absolute; <br>
+                        top: 5.5rem; <br>
+                        left: 48rem;<br>
+                        z-index: 2;</p>
+                    <h4>5</h4>
+                </article>
+            </div>
+            <div class="box-6z">
+                <article>
+                    <p>position: absolute; <br>
+                        top: 11rem; <br>
+                        left: 58rem;<br>
+                        z-index: 1  ;</p>
+                    <h4>6</h4>
+                </article>
+            </div>
+        </div>
+         
+    </section>
+
+    <a href="../position.html">« Volver a Position</a>
+
+
+</body>
+</html>

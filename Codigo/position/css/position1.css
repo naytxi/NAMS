@@ -1,0 +1,256 @@
+.container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    border: 0.3rem dashed white;
+
+}
+
+[class^="box"] {
+    width: 15rem;
+    height: 6rem;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: top;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+.box-1 {
+    position: static;
+    background-color: hsl(0deg, 100%, 50%);
+}
+
+.box-2 {
+    position: static;
+    top: 4rem;
+    right: 2rem;
+    background-color: hsl(30deg, 100%, 50%);
+}
+
+.box-3 {
+    position: static;
+    bottom: 4rem;
+    right: 2rem;
+    background-color: hsl(60deg, 80%, 50%);
+}
+
+.box-4 {
+    top: 2rem;
+    left: 3rem;
+    background-color: hsl(120deg, 70%, 50%);
+}
+
+.box-5 {
+    position: static;
+    top: 40rem;
+    left: 90rem;
+    right: 0;
+    background-color: hsl(180, 60%, 50%);
+}
+
+/* /////////// RELATIVE ///////////////////////////////// */
+
+.box-1r {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    background-color: hsl(0deg, 100%, 50%);
+}
+
+.box-2r {
+    position: relative;
+    bottom: 1rem;
+    left: 2rem;
+    background-color: hsl(30deg, 100%, 50%);
+}
+
+.box-3r {
+    position: relative;
+    left: 0rem;
+    background-color: hsl(60deg, 80%, 50%);
+}
+
+.box-4r {
+    position: relative;
+    bottom: 2rem;
+    left: 20rem;
+    background-color: hsl(120deg, 70%, 50%);
+}
+
+.box-5r {
+    position: static;
+    top: 5rem;
+    left: 8rem;
+    background-color: hsl(180, 60%, 50%);
+}
+
+/* ///// ABSOLUTE ////////////////////////////////// */
+
+.box-1a {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    background-color: hsl(0deg, 100%, 50%);
+}
+
+.box-2a {
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    background-color: hsl(30deg, 100%, 50%);
+}
+
+.box-3a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: hsl(60deg, 80%, 50%);
+}
+
+.box-4a {
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    background-color: hsl(120deg, 70%, 50%);
+}
+
+.box-5a {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+
+    background-color: hsl(180, 60%, 50%);
+}
+
+
+/* ///// FIXED ////////////////////////////////// */
+
+.box-1f {
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    background-color: hsl(0deg, 100%, 50%);
+}
+
+.box-2f {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: hsl(30deg, 100%, 50%);
+}
+
+.box-3f {
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    background-color: hsl(60deg, 80%, 50%);
+}
+
+.box-4f {
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+    background-color: hsl(120deg, 70%, 50%);
+}
+
+.box-5f {
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+
+    background-color: hsl(180, 60%, 50%);
+}
+
+
+/* ///// STICKY ////////////////////////////////// */
+
+.box-1s {
+    position: sticky;
+    top: 0rem;
+    left:0rem;
+    background-color: hsl(0deg, 100%, 50%);
+}
+
+.box-2s {
+    position: sticky;
+    top: 2rem;
+    left: 37rem;
+    background-color: hsl(30deg, 100%, 50%);
+}
+
+.box-3s {
+    position: sticky;
+    top: 4rem;
+    left: 52rem;
+    background-color: hsl(60deg, 80%, 50%);
+}
+
+.box-4s {
+    position: sticky;
+    top: 6rem;
+    left: 67rem;
+    background-color: hsl(120deg, 70%, 50%);
+}
+
+.box-5s {
+    position: sticky;
+    top: 8rem;
+    left: 80%;
+    background-color: hsl(180, 60%, 50%);
+}
+
+/* :::::::::::::::::::: Z-INDEX :::::::::::::::::::::: */
+
+.box-1z {
+    position: absolute;
+    top: 0rem;
+    left:0rem;
+    z-index: 3;
+    background-color: hsl(0deg, 100%, 50%);
+}
+
+.box-2z {
+    position: absolute;
+    top: 5.5rem;
+    left: 10rem;
+    z-index: 3;
+    background-color: hsl(30deg, 100%, 50%);
+}
+
+.box-3z {
+    position: absolute;
+    top: 11rem;
+    left: 20rem;
+    z-index: 1;
+    background-color: hsl(60deg, 80%, 50%);
+}
+
+.box-4z {
+    position: absolute;
+    top: 0rem;
+    left: 37rem;
+    z-index: 3;
+    background-color: hsl(120deg, 70%, 50%);
+}
+
+.box-5z {
+    position: absolute;
+    top: 5.5rem;
+    left: 48rem;
+    z-index: 2;
+    background-color: hsl(180, 60%, 50%);
+}
+.box-6z {
+    position: absolute;
+    top: 11rem;
+    left: 58rem;
+    z-index: 1;
+    background-color: hsl(305, 100%, 63%);
+}
+
+
