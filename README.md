@@ -3,6 +3,8 @@
 
 ![gif](https://i.pinimg.com/originals/be/82/8c/be828c40bb5a13d25c1e2579514ed6f3.gif)
 
+🖐️ Hi! I'm Nay and I'm currently learning to code.
+
 <h2> 🚀ABOUT </h2>
 
 **Objective:**
@@ -33,3 +35,5 @@ The goal of this project is to deepen students' understanding of key HTML and CS
 *Present and Share:
 
  *Groups will present their research to the class, providing examples and answering questions. Afterward, each group will share their code examples and resources for reference.
+
+ ✈️ Welcome to my journey.
