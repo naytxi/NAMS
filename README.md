@@ -1,4 +1,5 @@
-![github-header-image(2) (3 ª copia)](https://github.com/user-attachments/assets/325fe36c-4de8-48a4-bcb2-90422f2ff884)
+
+![github-header-image(2) (4 ª copia)](https://github.com/user-attachments/assets/434ea959-6c27-4bac-b470-0ca6538a1296)
 
 ![gif](https://i.pinimg.com/originals/be/82/8c/be828c40bb5a13d25c1e2579514ed6f3.gif)
 
