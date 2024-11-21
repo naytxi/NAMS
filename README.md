@@ -34,6 +34,6 @@ The goal of this project is to deepen students' understanding of key HTML and CS
 
 *Present and Share:
 
- *Groups will present their research to the class, providing examples and answering questions. Afterward, each group will share their code examples and resources for reference.
+ Groups will present their research to the class, providing examples and answering questions. Afterward, each group will share their code examples and resources for reference.
 
  ✈️ Welcome to my journey.
